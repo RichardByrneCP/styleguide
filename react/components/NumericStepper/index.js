@@ -309,6 +309,7 @@ class NumericStepper extends Component {
             onChange={this.handleTypeQuantity}
             onFocus={this.handleFocusInput}
             onBlur={this.handleBlurInput}
+            aria-label="Quantity"
           />
           <div className="vtex-numeric-stepper__plus-button-container numeric-stepper__plus-button-container z-2 order-2 flex-none">
             <button
